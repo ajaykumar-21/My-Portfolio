@@ -14,8 +14,12 @@
   }
 }
 
+/* Custom dark mode styles */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.dark {
+  background-color: #1a202c; /* Dark background */
+  color: #ffffff; /* Light text */
 }

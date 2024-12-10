@@ -1,24 +1,16 @@
 "use client";
 
-import { motion } from "framer-motion";
-
-const Abc = () => {
+const AboutPage = () => {
   return (
-    <motion.section
-      id="about"
-      className="py-12 px-4 sm:px-8 lg:px-16 text-center"
-      initial={{ x: -200, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
-      <h2 className="text-4xl font-semibold">About Me</h2>
-      <p className="mt-4 text-lg text-gray-700">
-        I’m a passionate Frontend Developer with experience in building
-        responsive and scalable web applications using React, JavaScript, and
-        modern web technologies.
+    <section className="py-16 px-4 bg-gray-50 text-gray-900">
+      <h2 className="text-3xl font-bold text-center">About Me</h2>
+      <p className="mt-4 text-center max-w-2xl mx-auto">
+        I'm Ajay Kumar, a passionate frontend developer with 1 year of
+        experience in building web applications using React, Next.js, and
+        Tailwind CSS.
       </p>
-    </motion.section>
+    </section>
   );
 };
 
-export default Abc;
+export default AboutPage;

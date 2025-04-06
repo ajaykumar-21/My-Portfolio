@@ -2,24 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-/* Custom dark mode styles */
-body {
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.dark {
-  background-color: #1a202c; /* Dark background */
-  color: #ffffff; /* Light text */
-}

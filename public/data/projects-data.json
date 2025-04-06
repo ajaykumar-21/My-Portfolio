@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Register Karo",
+    "description": "A modern, responsive business registration site using React, Tailwind CSS, and Framer Motion.",
+    "link": "https://register-karo.vercel.app"
+  },
+  {
+    "title": "Real-Time Collaboration Tool",
+    "description": "Built with Next.js, WebSockets, and Firebase to enable live team collaboration.",
+    "link": "https://collab-app.vercel.app"
+  },
+  {
+    "title": "AI Image Processor",
+    "description": "AI-powered tool for cartoonizing images and removing backgrounds using TensorFlow.js.",
+    "link": "https://ai-image-tool.vercel.app"
+  },
+  {
+    "title": "AI Image Processor",
+    "description": "AI-powered tool for cartoonizing images and removing backgrounds using TensorFlow.js.",
+    "link": "https://ai-image-tool.vercel.app"
+  }
+]

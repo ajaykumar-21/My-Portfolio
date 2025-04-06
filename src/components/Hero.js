@@ -8,7 +8,10 @@ import "swiper/css";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-blue-50 to-blue-100 dark:from-gray-900 dark:to-gray-800 px-6">
+    <section
+      className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-blue-50 to-blue-100 dark:from-gray-900 dark:to-gray-800 px-6"
+      id="home"
+    >
       <motion.h2
         className="text-4xl sm:text-5xl font-extrabold text-gray-800 dark:text-white"
         initial={{ opacity: 0, y: -30 }}

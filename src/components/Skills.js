@@ -47,7 +47,7 @@ const skills = [
   {
     name: "HTML5",
     icon: <FaHtml5 className="text-orange-600" />,
-    percentage: 95,
+    percentage: 85,
   },
   {
     name: "CSS3",
@@ -59,7 +59,10 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="py-16 bg-gray-100 dark:bg-gray-900" id="skills">
+    <section
+      className="relative py-16 bg-gray-100 dark:bg-gray-900"
+      id="skills"
+    >
       <div className="max-w-6xl mx-auto px-4 text-center">
         <motion.h2
           className="text-4xl font-bold mb-12 text-gray-800 dark:text-white"
@@ -137,6 +140,7 @@ const Skills = () => {
           ))}
         </motion.div>
       </div>
+      <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-b from-transparent to-gray-200 dark:to-gray-800 pointer-events-none" />
     </section>
   );
 };

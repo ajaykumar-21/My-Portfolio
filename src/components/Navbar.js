@@ -19,8 +19,9 @@ const Navbar = () => {
   const toggleTheme = () => setIsDark(!isDark);
 
   const navLinks = [
-    { name: "About", href: "#about" },
+    { name: "Home", href: "#home" },
     { name: "Projects", href: "#projects" },
+    { name: "skills", href: "#skills" },
     { name: "Contact", href: "#contact" },
   ];
 

@@ -1,8 +1,7 @@
-// import Header from "@/components/Header";
+import Header from "@/components/Skills";
 import Hero from "@/components/Hero";
 // import About from "@/components/About";
 import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
       {/* <Header /> */}
       <Hero />
       <Projects />
-      <Skills />
+      <Header />
       {/* <About /> */}
     </div>
   );

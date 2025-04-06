@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiRedux } from "react-icons/si";
 import { Tooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
 
 const skills = [
   {
@@ -38,22 +39,22 @@ const skills = [
     icon: <SiRedux className="text-purple-600" />,
     percentage: 80,
   },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: <SiTailwindcss className="text-blue-400" />,
-  //   percentage: 88,
-  // },
-  // {
-  //   name: "HTML5",
-  //   icon: <FaHtml5 className="text-orange-600" />,
-  //   percentage: 95,
-  // },
-  // {
-  //   name: "CSS3",
-  //   icon: <FaCss3Alt className="text-blue-600" />,
-  //   percentage: 90,
-  // },
-  // { name: "Git", icon: <FaGitAlt className="text-red-600" />, percentage: 85 },
+  {
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss className="text-blue-400" />,
+    percentage: 88,
+  },
+  {
+    name: "HTML5",
+    icon: <FaHtml5 className="text-orange-600" />,
+    percentage: 95,
+  },
+  {
+    name: "CSS3",
+    icon: <FaCss3Alt className="text-blue-600" />,
+    percentage: 90,
+  },
+  { name: "Git", icon: <FaGitAlt className="text-red-600" />, percentage: 85 },
 ];
 
 const Skills = () => {

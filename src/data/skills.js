@@ -63,7 +63,7 @@ const skillsForHome = [
   {
     name: "Node.js",
     icon: <FaNodeJs className="text-green-600" />,
-    percentage: 92,
+    percentage: 80,
   },
   {
     name: "Redux",

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Menu, X, Sun, Moon } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +20,9 @@ const Navbar = () => {
   const toggleTheme = () => setIsDark(!isDark);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "Projects", href: "#projects" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Projects", href: "/projects" },
     { name: "skills", href: "#skills" },
     { name: "Contact", href: "#contact" },
   ];
@@ -35,13 +37,13 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-6 items-center">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
               href={link.href}
-              className="text-gray-800 dark:text-gray-200 hover:text-blue-500 transition-colors font-medium"
+              className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-yellow-400 transition-colors font-medium"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
           <button
             onClick={toggleTheme}
@@ -83,14 +85,14 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden px-6 pb-4 pt-2 space-y-3 bg-white dark:bg-gray-900">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
               href={link.href}
               className="block text-gray-800 dark:text-gray-200 hover:text-blue-500 transition-colors font-medium"
               onClick={toggleMenu}
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
       )}

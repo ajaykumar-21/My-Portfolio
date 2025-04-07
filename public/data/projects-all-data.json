@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Real-Time Collaboration Tool",
+    "demoLink": "#",
+    "description": "Built a real-time collaboration tool with dynamic drawing capabilities, enabling multiple users to interact on a shared canvas in real time.",
+    "features": [
+      "Live cursor tracking",
+      "Customizable drawing tools",
+      "Responsive design for seamless usability across devices"
+    ],
+    "technologies": ["Next.js", "Socket.io", "Node.js", "Render", "Vercel"]
+  },
+  {
+    "title": "QTify",
+    "demoLink": "#",
+    "description": "Designed a music browsing app featuring seamless navigation through albums and genres with an elegant UI powered by Material-UI and Swiper.js.",
+    "features": [
+      "Dynamic carousels",
+      "Responsive grids",
+      "Intuitive navigation"
+    ],
+    "technologies": ["React", "Material-UI", "Swiper.js"]
+  },
+  {
+    "title": "QKart",
+    "demoLink": "#",
+    "description": "Developed an e-commerce platform offering a variety of products, implementing responsive design for a consistent experience across devices.",
+    "features": [
+      "Optimized state management",
+      "React hooks & React Router",
+      "Improved performance & usability"
+    ],
+    "technologies": ["React", "React Router"]
+  },
+  {
+    "title": "XBoard",
+    "demoLink": "#",
+    "description": "Created a news aggregation platform inspired by Flipboard, leveraging HTML, CSS, and JavaScript for a clean, responsive layout.",
+    "features": ["Bootstrap components", "Enhanced UI", "Fast rendering"],
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+  }
+]

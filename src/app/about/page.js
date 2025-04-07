@@ -6,7 +6,7 @@ import { GraduationCap, Briefcase, Award, BookOpen } from "lucide-react";
 const AboutMe = () => {
   return (
     <section
-      className="py-24 bg-gradient-to-br from-gray-100 to-white dark:from-gray-900 dark:to-gray-800"
+      className="py-24 bg-gradient-to-br from-gray-100 to-white dark:from-gray-950 dark:to-gray-800"
       id="about"
     >
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">

@@ -51,7 +51,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="py-24 bg-white dark:bg-gray-950 transition-colors duration-300">
+    <section className="py-24 bg-gradient-to-br from-gray-100 to-white dark:from-gray-950 dark:to-gray-900">
       <div className="max-w-5xl mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
@@ -83,21 +83,22 @@ const Contact = () => {
             <div className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition">
               <FaEnvelope className="text-xl text-blue-600 dark:text-yellow-400" />
               <span className="text-gray-800 dark:text-gray-200">
-                your.email@example.com
+                ajaykumarpk789@gmail.com
               </span>
             </div>
 
             <div className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition">
               <FaPhone className="text-xl text-blue-600 dark:text-yellow-400" />
               <span className="text-gray-800 dark:text-gray-200">
-                +91 9876543210
+                +91 9675523215
               </span>
             </div>
 
             <div className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition">
               <FaLinkedin className="text-xl text-blue-600 dark:text-yellow-400" />
               <a
-                href="#"
+                href="https://www.linkedin.com/in/ajaykumar789/"
+                target="_blank"
                 className="text-gray-800 dark:text-gray-200 hover:underline"
               >
                 LinkedIn Profile
@@ -107,7 +108,8 @@ const Contact = () => {
             <div className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition">
               <FaGithub className="text-xl text-blue-600 dark:text-yellow-400" />
               <a
-                href="#"
+                href="https://github.com/ajaykumar-21"
+                target="_blank"
                 className="text-gray-800 dark:text-gray-200 hover:underline"
               >
                 GitHub Profile

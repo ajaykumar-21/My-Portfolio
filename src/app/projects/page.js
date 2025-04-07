@@ -18,7 +18,7 @@ const ProjectSection = () => {
 
   return (
     <section
-      className="py-24 bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
+      className="py-24 bg-gradient-to-br from-gray-100 to-white dark:from-gray-950 dark:to-gray-800"
       id="projects"
     >
       <div className="max-w-6xl mx-auto px-6">

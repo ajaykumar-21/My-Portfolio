@@ -1,71 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  FaReact,
-  FaNodeJs,
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaGitAlt,
-} from "react-icons/fa";
-import {
-  SiNextdotjs,
-  SiTailwindcss,
-  SiRedux,
-  SiTypescript,
-} from "react-icons/si";
 import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
-
-const skills = [
-  {
-    name: "React",
-    icon: <FaReact className="text-blue-500" />,
-    percentage: 90,
-  },
-  {
-    name: "Next.js",
-    icon: <SiNextdotjs className="text-blue-900" />,
-    percentage: 85,
-  },
-  {
-    name: "JavaScript",
-    icon: <FaJsSquare className="text-yellow-500" />,
-    percentage: 85,
-  },
-  {
-    name: "TypeScript",
-    icon: <SiTypescript className="text-blue-500" />,
-    percentage: 75,
-  },
-  {
-    name: "Node.js",
-    icon: <FaNodeJs className="text-green-600" />,
-    percentage: 92,
-  },
-  {
-    name: "Redux",
-    icon: <SiRedux className="text-purple-600" />,
-    percentage: 80,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss className="text-blue-400" />,
-    percentage: 88,
-  },
-  {
-    name: "HTML5",
-    icon: <FaHtml5 className="text-orange-600" />,
-    percentage: 85,
-  },
-  {
-    name: "CSS3",
-    icon: <FaCss3Alt className="text-blue-600" />,
-    percentage: 90,
-  },
-  { name: "Git", icon: <FaGitAlt className="text-red-600" />, percentage: 85 },
-];
+import skillsForHome from "../data/skills";
 
 const Skills = () => {
   return (
@@ -89,7 +27,7 @@ const Skills = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {skills.map((skill, i) => (
+          {skillsForHome.map((skill, i) => (
             <motion.div
               key={i}
               className="relative group flex flex-col items-center gap-3"

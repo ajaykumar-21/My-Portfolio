@@ -36,18 +36,33 @@ const AboutMe = () => {
               👋 About Me
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Proactive and skilled{" "}
+              Passionate and detail-oriented{" "}
               <span className="font-semibold text-blue-600 dark:text-yellow-400">
                 Frontend Developer
               </span>{" "}
-              around <strong>1 year</strong> of experience in building
-              user-friendly applications using
-              <strong> React, JavaScript</strong>, and modern frameworks. After
-              a career setback, I upskilled through
-              <strong> Crio.do</strong>, gaining hands-on experience with{" "}
-              <strong>Next.js, Tailwind CSS, and WebSocket</strong>. Passionate
-              about performance optimization and delivering{" "}
-              <strong>exceptional user experiences</strong>.
+              with around <strong>1 year</strong> of professional experience
+              crafting responsive, scalable, and performance-driven web
+              applications. I specialize in building sleek UIs using{" "}
+              <strong>React, JavaScript, HTML, CSS, and Tailwind CSS</strong>.
+              After a career pause, I redefined my technical journey through{" "}
+              <strong>Crio.do</strong>—mastering{" "}
+              <strong>Next.js, WebSocket, and real-world dev workflows</strong>{" "}
+              in full-stack environments.
+              <br />
+              <br />
+              I’ve solved over{" "}
+              <span className="font-semibold text-blue-600 dark:text-yellow-400">
+                200+ DSA problems
+              </span>{" "}
+              across platforms like LeetCode and GeeksforGeeks, enhancing my
+              problem-solving abilities and logical thinking.
+              <br />
+              <br />I thrive in collaborative environments, take pride in clean
+              code, and consistently aim to deliver{" "}
+              <strong>high-impact user experiences</strong> that leave a lasting
+              impression. Whether it's optimizing performance, building reusable
+              components, or solving complex logic problems—I’m always eager to
+              push the limits of what’s possible on the web.
             </p>
           </div>
 

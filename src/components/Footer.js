@@ -6,17 +6,17 @@ import { motion } from "framer-motion";
 const socialLinks = [
   {
     icon: <FaGithub />,
-    url: "https://github.com/",
+    url: "https://github.com/ajaykumar-21",
     label: "GitHub",
   },
   {
     icon: <FaLinkedin />,
-    url: "https://linkedin.com/",
+    url: "https://www.linkedin.com/in/ajaykumar789/",
     label: "LinkedIn",
   },
   {
     icon: <FaTwitter />,
-    url: "https://twitter.com/",
+    url: "#",
     label: "Twitter",
   },
 ];

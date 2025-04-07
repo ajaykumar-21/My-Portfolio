@@ -7,17 +7,17 @@ const contactDetails = [
   {
     icon: <FaEnvelope className="text-blue-500 text-2xl" />,
     title: "Email",
-    info: "your.email@example.com",
+    info: "ajaykumarpk789@gmail.com",
   },
   {
     icon: <FaPhone className="text-green-500 text-2xl" />,
     title: "Phone",
-    info: "+123 456 7890",
+    info: "+91 9675523215",
   },
   {
     icon: <FaMapMarkerAlt className="text-red-500 text-2xl" />,
     title: "Location",
-    info: "Your City, Country",
+    info: "Bangalore, India",
   },
 ];
 

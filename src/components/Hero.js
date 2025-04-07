@@ -44,7 +44,7 @@ const Hero = () => {
         transition={{ duration: 1, delay: 0.5 }}
       >
         <a
-          href="https://github.com"
+          href="https://github.com/ajaykumar-21"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-transform transform hover:scale-110"
@@ -52,7 +52,7 @@ const Hero = () => {
           <FaGithub size={30} />
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/ajaykumar789/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-transform transform hover:scale-110"
@@ -60,7 +60,7 @@ const Hero = () => {
           <FaLinkedin size={30} />
         </a>
         <a
-          href="mailto:ajay@example.com"
+          href="#"
           className="text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-transform transform hover:scale-110"
         >
           <FaEnvelope size={30} />

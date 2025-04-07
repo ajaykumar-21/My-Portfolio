@@ -87,13 +87,13 @@ const skills = {
 
 const Skills = () => {
   return (
-    <section className="mt-10 py-12 bg-yellow-50 dark:bg-gray-900 transition-colors duration-300">
+    <section className="mt-10 py-12 dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-5 flex flex-col items-center justify-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-center mb-10 text-white"
+          className="text-4xl font-bold text-center mb-10 text-blue-700 dark:text-yellow-400"
         >
           My Skills
         </motion.h2>
@@ -104,20 +104,20 @@ const Skills = () => {
               key={index}
               whileHover={{ scale: 1.03 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="bg-white dark:bg-gray-800 border border-yellow-100 dark:border-yellow-800 p-6 rounded-xl shadow-lg text-center"
+              className="bg-white dark:bg-gray-800 border border-blue-100 dark:border-yellow-700 p-6 rounded-xl shadow-lg text-center"
             >
               <div className="text-3xl mb-3 flex justify-center">
                 {category === "Languages" && (
-                  <FaCode className="text-yellow-500" />
+                  <FaCode className="text-blue-600 dark:text-yellow-400" />
                 )}
                 {category === "Frameworks" && (
-                  <FaCogs className="text-yellow-500" />
+                  <FaCogs className="text-blue-600 dark:text-yellow-400" />
                 )}
                 {category === "Tools" && (
-                  <FaTools className="text-yellow-500" />
+                  <FaTools className="text-blue-600 dark:text-yellow-400" />
                 )}
               </div>
-              <h3 className="text-2xl font-semibold text-yellow-700 dark:text-yellow-400 mb-5">
+              <h3 className="text-2xl font-semibold text-blue-700 dark:text-yellow-400 mb-5">
                 {category}
               </h3>
               <ul className="space-y-3">

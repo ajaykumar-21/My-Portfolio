@@ -23,26 +23,26 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white relative">
+    <footer className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white relative">
       {/* Gradient top border */}
-      <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-b from-transparent to-gray-200 dark:to-gray-800 pointer-events-none" />
+      <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-t from-transparent to-gray-200 dark:to-gray-800 pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-5 py-10 flex flex-col items-center text-center">
         <motion.p
-          className="text-base md:text-lg font-medium text-gray-400 mb-1"
+          className="text-base md:text-lg font-medium text-gray-600 dark:text-gray-300 mb-1"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
         >
           &copy; {new Date().getFullYear()}{" "}
-          <span className="text-yellow-400 font-semibold tracking-wide">
+          <span className="text-blue-600 dark:text-yellow-400 font-semibold tracking-wide">
             Ajay Kumar
           </span>
           . All rights reserved.
         </motion.p>
 
         <motion.p
-          className="text-sm md:text-base text-gray-500 mt-1 italic tracking-wide"
+          className="text-sm md:text-base text-gray-500 dark:text-gray-400 mt-1 italic tracking-wide"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -63,7 +63,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={link.label}
-              className="text-2xl text-gray-300 hover:text-yellow-400 transition-colors"
+              className="text-2xl text-blue-600 dark:text-gray-300 hover:text-blue-800 dark:hover:text-yellow-400 transition-colors"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >

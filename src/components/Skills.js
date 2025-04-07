@@ -75,7 +75,7 @@ const Skills = () => {
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
         <motion.h2
-          className="text-4xl font-bold mb-12 text-gray-800 dark:text-white"
+          className="text-4xl font-bold mb-12 text-blue-900 dark:text-yellow-400"
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -125,17 +125,17 @@ const Skills = () => {
                     strokeWidth="8"
                     fill="transparent"
                     strokeLinecap="round"
-                    className="text-yellow-400"
+                    className="text-blue-500 dark:text-yellow-400"
                     initial={{ pathLength: 0 }}
                     animate={{ pathLength: skill.percentage / 100 }}
                     transition={{ duration: 1 }}
                   />
                 </svg>
-                <div className="absolute inset-0 flex items-center justify-center text-yellow-500 text-2xl">
+                <div className="absolute inset-0 flex items-center justify-center text-blue-600 dark:text-yellow-400 text-2xl">
                   {skill.icon}
                 </div>
               </div>
-              <p className="text-sm font-semibold text-gray-800 dark:text-white">
+              <p className="text-sm font-semibold text-blue-900 dark:text-yellow-300">
                 {skill.name}
               </p>
 
@@ -150,6 +150,8 @@ const Skills = () => {
           ))}
         </motion.div>
       </div>
+
+      {/* Bottom gradient */}
       <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-b from-transparent to-gray-200 dark:to-gray-800 pointer-events-none" />
     </section>
   );

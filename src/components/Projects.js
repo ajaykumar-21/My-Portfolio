@@ -14,11 +14,11 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 bg-gradient-to-b from-gray-100 to-white text-gray-900 dark:from-gray-900 dark:to-gray-800 dark:text-white transition-colors"
+      className="py-20 bg-gradient-to-b from-blue-50 to-white text-blue-950 dark:from-gray-950 dark:to-gray-800 dark:text-white transition-colors"
     >
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
-          className="text-4xl font-extrabold mb-14"
+          className="text-4xl font-extrabold mb-14 text-blue-900 dark:text-yellow-400"
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
@@ -26,7 +26,6 @@ export default function Projects() {
           🚀 My Projects
         </motion.h2>
 
-        {/* <div className="relative overflow-visible"> */}
         <Swiper
           modules={[Autoplay, Pagination, EffectCoverflow]}
           effect="coverflow"
@@ -55,18 +54,18 @@ export default function Projects() {
               }`}
             >
               <motion.div
-                className={`relative min-h-[240px] h-full flex flex-col justify-between bg-white/90 dark:bg-white/10 backdrop-blur-xl border border-gray-300 dark:border-white/10 rounded-2xl p-6 shadow-xl transition-all duration-300 ${
-                  activeIndex === index
-                    ? "ring-2 ring-yellow-400 shadow-2xl"
-                    : ""
-                }`}
+                className={`relative min-h-[240px] h-full flex flex-col justify-between 
+                bg-white/90 dark:bg-gray-800 
+                border border-blue-100 dark:border-yellow-700 
+                rounded-2xl p-6 shadow-xl 
+                transition-all duration-300`}
                 whileHover={{ scale: 1.05 }}
               >
                 <div>
-                  <h3 className="text-xl font-bold mb-3 text-yellow-600 dark:text-yellow-400">
+                  <h3 className="text-xl font-bold mb-3 text-blue-700 dark:text-yellow-300">
                     {project.title}
                   </h3>
-                  <p className="text-base text-gray-700 dark:text-gray-300">
+                  <p className="text-base text-blue-900 dark:text-gray-300">
                     {project.description}
                   </p>
                 </div>
@@ -74,7 +73,12 @@ export default function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-6 self-center inline-flex items-center justify-center px-4 py-3 w-fit bg-yellow-400 text-sm font-bold text-blue-900 rounded-full hover:bg-yellow-300 transition"
+                  className="mt-6 self-center inline-flex items-center justify-center px-4 py-3 w-fit 
+                  bg-blue-500 text-white 
+                  dark:bg-yellow-400 dark:text-blue-900 
+                  text-sm font-bold rounded-full 
+                  hover:bg-blue-600 dark:hover:bg-yellow-300 
+                  transition"
                 >
                   🔗 View Details
                 </a>
@@ -83,7 +87,6 @@ export default function Projects() {
           ))}
         </Swiper>
       </div>
-      {/* </div> */}
     </section>
   );
 }

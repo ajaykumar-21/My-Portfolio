@@ -1,7 +1,7 @@
 [
   {
     "title": "Real-Time Collaboration Tool",
-    "demoLink": "#",
+    "demoLink": "https://realtime-collaboration-tool.vercel.app/",
     "description": "Built a real-time collaboration tool with dynamic drawing capabilities, enabling multiple users to interact on a shared canvas in real time.",
     "features": [
       "Live cursor tracking",
@@ -12,7 +12,7 @@
   },
   {
     "title": "QTify",
-    "demoLink": "#",
+    "demoLink": "https://l-square-q-tify-psi-sage.vercel.app/",
     "description": "Designed a music browsing app featuring seamless navigation through albums and genres with an elegant UI powered by Material-UI and Swiper.js.",
     "features": [
       "Dynamic carousels",
@@ -23,7 +23,7 @@
   },
   {
     "title": "QKart",
-    "demoLink": "#",
+    "demoLink": "https://ajaykumar-qkart-frontend.vercel.app/",
     "description": "Developed an e-commerce platform offering a variety of products, implementing responsive design for a consistent experience across devices.",
     "features": [
       "Optimized state management",
@@ -33,8 +33,20 @@
     "technologies": ["React", "React Router"]
   },
   {
+    "title": "Music Course App",
+    "demoLink": "https://music-course-app-ten.vercel.app",
+    "description": "A comprehensive Music Course App built with modern web technologies like Next.js, TypeScript, Tailwind CSS, and the Accertinity library. This app offers an intuitive user experience with fast performance and a responsive design.",
+    "features": [
+      "Course Catalog with search functionality",
+      "Responsive design for all devices",
+      "Dynamic course content display",
+      "Tailored and clean UI with Tailwind CSS"
+    ],
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Accertinity"]
+  },
+  {
     "title": "XBoard",
-    "demoLink": "#",
+    "demoLink": "https://xboard-ajaykumar.netlify.app/",
     "description": "Created a news aggregation platform inspired by Flipboard, leveraging HTML, CSS, and JavaScript for a clean, responsive layout.",
     "features": ["Bootstrap components", "Enhanced UI", "Fast rendering"],
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]

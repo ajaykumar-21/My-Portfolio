@@ -23,8 +23,8 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Projects", href: "/projects" },
-    { name: "skills", href: "#skills" },
-    { name: "Contact", href: "#contact" },
+    { name: "Skills", href: "/skill" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (

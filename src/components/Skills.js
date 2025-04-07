@@ -9,7 +9,12 @@ import {
   FaJsSquare,
   FaGitAlt,
 } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiRedux } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiRedux,
+  SiTypescript,
+} from "react-icons/si";
 import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 
@@ -21,12 +26,17 @@ const skills = [
   },
   {
     name: "Next.js",
-    icon: <SiNextdotjs className="text-yellow-900" />,
+    icon: <SiNextdotjs className="text-blue-900" />,
     percentage: 85,
   },
   {
     name: "JavaScript",
     icon: <FaJsSquare className="text-yellow-500" />,
+    percentage: 85,
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript className="text-blue-500" />,
     percentage: 75,
   },
   {

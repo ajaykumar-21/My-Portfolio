@@ -15,6 +15,11 @@
     "link": "https://ajaykumar-qkart-frontend.vercel.app/"
   },
   {
+    "title": "Music Course App",
+    "description": "A comprehensive Music Course App built with modern web technologies like Next.js, TypeScript, Tailwind CSS, and the Accertinity library.",
+    "link": "https://music-course-app-ten.vercel.app/"
+  },
+  {
     "title": "XBoard",
     "description": "Created a news aggregation platform inspired by Flipboard, leveraging HTML, CSS, and JavaScript for a clean, responsive layout.",
     "link": "https://xboard-ajaykumar.netlify.app/"

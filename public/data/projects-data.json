@@ -1,22 +1,22 @@
 [
   {
-    "title": "Register Karo",
-    "description": "A modern, responsive business registration site using React, Tailwind CSS, and Framer Motion.",
-    "link": "https://register-karo.vercel.app"
-  },
-  {
     "title": "Real-Time Collaboration Tool",
-    "description": "Built with Next.js, WebSockets, and Firebase to enable live team collaboration.",
-    "link": "https://collab-app.vercel.app"
+    "description": "Built a real-time collaboration tool with dynamic drawing capabilities, enabling multiple users to interact on a shared canvas in real time.",
+    "link": "https://realtime-collaboration-tool.vercel.app/"
   },
   {
-    "title": "AI Image Processor",
+    "title": "QTify",
+    "description": "Developed an e-commerce platform offering a variety of products, implementing responsive design for a consistent experience across devices.",
+    "link": "https://ajaykumar-qkart-frontend.vercel.app/"
+  },
+  {
+    "title": "QKart",
     "description": "AI-powered tool for cartoonizing images and removing backgrounds using TensorFlow.js.",
     "link": "https://ai-image-tool.vercel.app"
   },
   {
-    "title": "AI Image Processor",
-    "description": "AI-powered tool for cartoonizing images and removing backgrounds using TensorFlow.js.",
-    "link": "https://ai-image-tool.vercel.app"
+    "title": "XBoard",
+    "description": "Created a news aggregation platform inspired by Flipboard, leveraging HTML, CSS, and JavaScript for a clean, responsive layout.",
+    "link": "https://xboard-ajaykumar.netlify.app/"
   }
 ]

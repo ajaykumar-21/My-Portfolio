@@ -39,8 +39,8 @@ const AboutMe = () => {
               Proactive and skilled{" "}
               <span className="font-semibold text-blue-600 dark:text-yellow-400">
                 Frontend Developer
-              </span>
-              with <strong>1 year</strong> of experience in building
+              </span>{" "}
+              around <strong>1 year</strong> of experience in building
               user-friendly applications using
               <strong> React, JavaScript</strong>, and modern frameworks. After
               a career setback, I upskilled through

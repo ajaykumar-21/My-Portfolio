@@ -1,5 +1,10 @@
 [
   {
+    "title": "AI-Powered Task Management App",
+    "description": "Developed a task management application with real-time updates and AI-based task suggestions, enabling seamless task tracking, categorization, and team collaboration.",
+    "link": "https://task-manager-app-tau-livid.vercel.app/"
+  },
+  {
     "title": "Real-Time Collaboration Tool",
     "description": "Built a real-time collaboration tool with dynamic drawing capabilities, enabling multiple users to interact on a shared canvas in real time.",
     "link": "https://realtime-collaboration-tool.vercel.app/"

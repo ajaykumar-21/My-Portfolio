@@ -1,5 +1,10 @@
 [
   {
+    "title": "GradNext Cohort Automation & Landing Page",
+    "description": "Built a full-stack application to automate cohort enrollment for GradNext. Includes a responsive landing page, email automation using SendGrid, webhook tracking, follow-up scheduling, and a real-time admin dashboard.",
+    "link": "https://gradnext-landing-page.vercel.app"
+  },
+  {
     "title": "AI-Powered Task Management App",
     "description": "Developed a task management application with real-time updates and AI-based task suggestions, enabling seamless task tracking, categorization, and team collaboration.",
     "link": "https://task-manager-app-tau-livid.vercel.app/"

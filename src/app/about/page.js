@@ -33,36 +33,37 @@ const AboutMe = () => {
           {/* Heading */}
           <div>
             <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-4">
-              👋 About Me
+              🚀 Helping Brands & Founders Launch Better Websites
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Passionate and detail-oriented{" "}
+              I'm a{" "}
               <span className="font-semibold text-blue-600 dark:text-yellow-400">
                 Frontend Developer
               </span>{" "}
-              with around <strong>1 year</strong> of professional experience
-              crafting responsive, scalable, and performance-driven web
-              applications. I specialize in building sleek UIs using{" "}
-              <strong>React, JavaScript, HTML, CSS, and Tailwind CSS</strong>.
-              After a career pause, I redefined my technical journey through{" "}
-              <strong>Crio.do</strong>—mastering{" "}
-              <strong>Next.js, WebSocket, and real-world dev workflows</strong>{" "}
-              in full-stack environments.
-              <br />
-              <br />
-              I’ve solved over{" "}
+              with around <strong>years</strong> of professional experience
+              building responsive, scalable, and performance-focused web
+              applications. I specialize in{" "}
+              <strong>React, JavaScript, HTML, CSS, and Tailwind CSS</strong>,
+              with a passion for crafting seamless user interfaces.
+            </p>
+            <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              After a career pause, I reignited my development journey through{" "}
+              <strong>Crio.do</strong>, gaining hands-on experience with{" "}
+              <strong>Next.js, WebSocket, and real-world dev workflows</strong>.
+            </p>
+            <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              I've solved over{" "}
               <span className="font-semibold text-blue-600 dark:text-yellow-400">
                 200+ DSA problems
               </span>{" "}
-              across platforms like LeetCode and GeeksforGeeks, enhancing my
-              problem-solving abilities and logical thinking.
-              <br />
-              <br />I thrive in collaborative environments, take pride in clean
-              code, and consistently aim to deliver{" "}
-              <strong>high-impact user experiences</strong> that leave a lasting
-              impression. Whether it's optimizing performance, building reusable
-              components, or solving complex logic problems—I’m always eager to
-              push the limits of what’s possible on the web.
+              across LeetCode and GeeksforGeeks, sharpening my logical and
+              problem-solving skills.
+            </p>
+            <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              I take pride in writing clean, maintainable code and love building
+              reusable components that enhance efficiency. My focus is always on
+              delivering <strong>high-impact digital experiences</strong> that
+              are fast, reliable, and user-friendly.
             </p>
           </div>
 
@@ -78,18 +79,19 @@ const AboutMe = () => {
             </p>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2 space-y-1">
               <li>
-                Collaborated with 6 developers & 2 stakeholders to deliver 16+
+                Collaborated with developers and stakeholders to ship 16+
                 features.
               </li>
               <li>
-                Reviewed 50+ code submissions, improving code quality by 15%.
+                Reviewed over 50 code submissions, improving quality and
+                consistency.
               </li>
               <li>
-                Developed reusable components, reducing future development time.
+                Built reusable UI components to reduce development time by 30%.
               </li>
               <li>
-                Optimized 3+ applications, achieving a 20% reduction in load
-                times.
+                Optimized applications leading to a 20% improvement in load
+                time.
               </li>
             </ul>
           </div>
@@ -102,7 +104,7 @@ const AboutMe = () => {
             </h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">
               Secured university-level funding for an innovative final-year
-              project, showcasing strong technical proficiency.
+              project, demonstrating strong technical capability and vision.
             </p>
           </div>
 
@@ -113,7 +115,7 @@ const AboutMe = () => {
               Education
             </h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300 leading-relaxed">
-              <strong>Bachelor of Engineering</strong> – SAIT, Bangalore (VTU){" "}
+              <strong>Bachelor of Engineering</strong> – SAIT, Bangalore (VTU)
               <br />
               <span className="text-sm text-gray-600 dark:text-gray-400">
                 Electronics & Communication Engineering – Aug 2021

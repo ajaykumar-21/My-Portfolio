@@ -35,20 +35,24 @@ const About = () => {
             🎓 About Me
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            I'm a passionate{" "}
+            I'm a{" "}
             <span className="font-semibold text-blue-600 dark:text-yellow-400">
               Frontend Developer
             </span>{" "}
-            with hands-on experience in building responsive and interactive
-            applications using{" "}
-            <span className="font-semibold">React, Next.js</span> and modern web
-            technologies.
+            specializing in building modern, fast-loading websites using{" "}
+            <span className="font-semibold">React</span>,{" "}
+            <span className="font-semibold">Next.js</span>, and{" "}
+            <span className="font-semibold">Tailwind CSS</span>.
           </p>
           <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            I love crafting seamless user experiences, continuously improving my
-            skills, and staying updated with the latest trends in frontend
-            development. My goal is to create engaging digital products that
-            make a difference.
+            I help coaches, creators, small businesses, and startups bring their
+            ideas online with clean code, responsive UI, and smooth user
+            experience. Whether it’s a landing page, portfolio, or full React
+            app — I build it to perform.
+          </p>
+          <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            Let’s work together and create something amazing that reflects your
+            brand and converts visitors into clients.
           </p>
 
           {/* CTA Button */}

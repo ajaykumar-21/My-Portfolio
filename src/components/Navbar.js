@@ -30,9 +30,15 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-lg shadow-md dark:bg-gray-900/80 transition duration-300">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-600 dark:text-yellow-400">
-          Ajay Kumar
-        </h1>
+        <div className="flex items-center space-x-2">
+          <span className="text-blue-600 dark:text-yellow-400 text-2xl font-bold">
+            [A]
+          </span>
+          <span className="font-semibold text-gray-800 dark:text-white tracking-wide">
+            BuildWith
+            <span className="text-blue-600 dark:text-yellow-400">Ajay</span>
+          </span>
+        </div>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-6 items-center">

@@ -35,10 +35,12 @@ const Footer = () => {
           transition={{ duration: 0.6 }}
         >
           &copy; {new Date().getFullYear()}{" "}
-          <span className="text-blue-600 dark:text-yellow-400 font-semibold tracking-wide">
-            Ajay Kumar
+          <span className="text-yellow-500 dark:text-yellow-400 font-semibold tracking-wide">
+            BuildWithAjay
+          </span>{" "}
+          <span className="text-gray-700 dark:text-gray-300">
+            — Passionate Frontend Development. All rights reserved.
           </span>
-          . All rights reserved.
         </motion.p>
 
         <motion.p

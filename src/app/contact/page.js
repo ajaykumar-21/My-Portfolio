@@ -21,9 +21,9 @@ const Contact = () => {
 
   const validate = () => {
     const errs = {};
-    if (!formData.name) errs.name = "Name is required";
-    if (!formData.email) errs.email = "Email is required";
-    if (!formData.message) errs.message = "Message is required";
+    if (!formData.name.trim()) errs.name = "Name is required";
+    if (!formData.email.trim()) errs.email = "Email is required";
+    if (!formData.message.trim()) errs.message = "Message is required";
     return errs;
   };
 
@@ -38,10 +38,10 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        "service_eva5ocq",
-        "template_a0zy1fn",
+        "service_9xaiyu4", // 🔁 Your Service ID
+        "template_jgkktbw", // 🔁 Your Template ID
         formData,
-        "4VF0gFoIUrMwUXgdr"
+        "6bsC2eNIneVbZ05ac" // 🔁 Your Public Key
       );
       toast.success("Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
@@ -50,14 +50,16 @@ const Contact = () => {
       toast.error("Something went wrong. Try again!");
     }
   };
+
   return (
     <section className="py-24 bg-gradient-to-br from-gray-100 to-white dark:from-gray-950 dark:to-gray-900">
+      <Toaster position="top-right" reverseOrder={false} />
       <div className="max-w-5xl mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-4xl md:text-5xl font-bold text-center mb-6 text-blue-800 dark:text-white"
+          className="text-4xl md:text-5xl font-bold text-center mb-6 text-blue-800 dark:text-yellow-400"
         >
           📬 Get in Touch
         </motion.h2>
@@ -80,41 +82,26 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <div className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition">
-              <FaEnvelope className="text-xl text-blue-600 dark:text-yellow-400" />
-              <span className="text-gray-800 dark:text-gray-200">
-                ajaykumarpk789@gmail.com
-              </span>
-            </div>
-
-            <div className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition">
-              <FaPhone className="text-xl text-blue-600 dark:text-yellow-400" />
-              <span className="text-gray-800 dark:text-gray-200">
-                +91 9675523215
-              </span>
-            </div>
-
-            <div className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition">
-              <FaLinkedin className="text-xl text-blue-600 dark:text-yellow-400" />
-              <a
-                href="https://www.linkedin.com/in/ajaykumar789/"
-                target="_blank"
-                className="text-gray-800 dark:text-gray-200 hover:underline"
-              >
-                LinkedIn Profile
-              </a>
-            </div>
-
-            <div className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition">
-              <FaGithub className="text-xl text-blue-600 dark:text-yellow-400" />
-              <a
-                href="https://github.com/ajaykumar-21"
-                target="_blank"
-                className="text-gray-800 dark:text-gray-200 hover:underline"
-              >
-                GitHub Profile
-              </a>
-            </div>
+            <ContactInfo
+              icon={<FaEnvelope />}
+              text="ajaykumarpk789@gmail.com"
+              link="mailto:ajaykumarpk789@gmail.com"
+            />
+            <ContactInfo
+              icon={<FaPhone />}
+              text="+91 9675523215"
+              link="tel:+919675523215"
+            />
+            <ContactInfo
+              icon={<FaLinkedin />}
+              text="LinkedIn Profile"
+              link="https://www.linkedin.com/in/ajaykumar789/"
+            />
+            <ContactInfo
+              icon={<FaGithub />}
+              text="GitHub Profile"
+              link="https://github.com/ajaykumar-21"
+            />
           </motion.div>
 
           {/* Contact Form */}
@@ -125,33 +112,32 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
             className="bg-blue-50 dark:bg-white/5 p-8 rounded-xl shadow-md space-y-5"
           >
-            <input
+            <FormInput
               type="text"
               name="name"
+              placeholder="Your Name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="Your Name"
-              className="w-full p-3 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-yellow-400"
+              error={errors.name}
             />
-            <input
+            <FormInput
               type="email"
               name="email"
               placeholder="Your Email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-yellow-400"
+              error={errors.email}
             />
-            <textarea
-              rows={4}
+            <FormTextarea
               name="message"
               placeholder="Your Message"
               value={formData.message}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-yellow-400"
-            ></textarea>
+              error={errors.message}
+            />
             <button
               type="submit"
-              className="w-full bg-blue-600 dark:bg-yellow-500 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 dark:hover:bg-yellow-600 transition duration-300"
+              className="w-full bg-blue-600 dark:bg-yellow-500 text-white dark:text-black font-semibold py-3 rounded-lg hover:bg-blue-700 dark:hover:bg-yellow-600 transition duration-300"
             >
               ✉️ Send Message
             </button>
@@ -163,3 +149,46 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// 👇 Reusable Components
+const ContactInfo = ({ icon, text, link }) => (
+  <a
+    href={link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-4 bg-blue-50 dark:bg-white/5 shadow-md p-5 rounded-xl hover:shadow-blue-100 dark:hover:shadow-yellow-300/20 transition"
+  >
+    <span className="text-xl text-blue-600 dark:text-yellow-400">{icon}</span>
+    <span className="text-gray-800 dark:text-gray-200 hover:underline">
+      {text}
+    </span>
+  </a>
+);
+
+const FormInput = ({ type, name, placeholder, value, onChange, error }) => (
+  <div>
+    <input
+      type={type}
+      name={name}
+      placeholder={placeholder}
+      value={value}
+      onChange={onChange}
+      className="w-full p-3 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-yellow-400"
+    />
+    {error && <p className="text-sm text-red-500 mt-1">{error}</p>}
+  </div>
+);
+
+const FormTextarea = ({ name, placeholder, value, onChange, error }) => (
+  <div>
+    <textarea
+      name={name}
+      placeholder={placeholder}
+      value={value}
+      rows={4}
+      onChange={onChange}
+      className="w-full p-3 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-yellow-400"
+    ></textarea>
+    {error && <p className="text-sm text-red-500 mt-1">{error}</p>}
+  </div>
+);

@@ -1,5 +1,28 @@
 [
   {
+    "title": "GradNext Cohort Automation & Landing Page",
+    "demoLink": "https://gradnext-landing-page.vercel.app",
+    "description": "Built a full-stack application to automate cohort enrollment for GradNext. Includes a responsive landing page, email automation using SendGrid, webhook tracking, follow-up scheduling, and a real-time admin dashboard.",
+    "features": [
+      "Responsive landing page with testimonials and CTA",
+      "Cohort interest form with email confirmation",
+      "SendGrid-based email automation with webhook tracking",
+      "Smart follow-up logic with node-cron",
+      "Admin dashboard to visualize user status",
+      "Payment simulation with confirmation screen"
+    ],
+    "technologies": [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB Atlas",
+      "SendGrid",
+      "Vercel",
+      "Render"
+    ]
+  },
+  {
     "title": "AI-Powered Task Management App",
     "demoLink": "https://task-manager-app-tau-livid.vercel.app/",
     "description": "Developed a task management application with real-time updates and AI-based task suggestions, enabling seamless task tracking, categorization, and team collaboration.",

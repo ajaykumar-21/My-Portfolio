@@ -40,16 +40,19 @@ const AboutMe = () => {
               <span className="font-semibold text-blue-600 dark:text-yellow-400">
                 Frontend Developer
               </span>{" "}
-              with around <strong>years</strong> of professional experience
+              with around <strong>1 year</strong> of professional experience
               building responsive, scalable, and performance-focused web
               applications. I specialize in{" "}
               <strong>React, JavaScript, HTML, CSS, and Tailwind CSS</strong>,
               with a passion for crafting seamless user interfaces.
             </p>
             <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              After a career pause, I reignited my development journey through{" "}
-              <strong>Crio.do</strong>, gaining hands-on experience with{" "}
-              <strong>Next.js, WebSocket, and real-world dev workflows</strong>.
+              I have hands-on expertise with{" "}
+              <strong>
+                Next.js, WebSocket, Redux Toolkit, and real-world workflows
+              </strong>
+              , applying modern development practices to deliver
+              production-ready solutions.
             </p>
             <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               I've solved over{" "}
@@ -73,6 +76,23 @@ const AboutMe = () => {
               <Briefcase className="text-blue-600 dark:text-yellow-400" />{" "}
               Experience
             </h3>
+            <p className="mt-4 text-gray-700 dark:text-gray-300 font-medium">
+              Freelance & Personal Projects – (Feb 2023 - Present)
+            </p>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2 space-y-1">
+              <li>
+                Developed an <strong>E-commerce Cart Application</strong> with
+                add-to-cart, discounts, and reusable components.
+              </li>
+              <li>
+                Built a <strong>Hackathon Management App</strong> with search,
+                filtering, sorting, and countdown timers.
+              </li>
+              <li>
+                Created a <strong>Real-Time Collaboration Tool</strong> using
+                Next.js and Socket.IO for shared whiteboard interactions.
+              </li>
+            </ul>
             <p className="mt-2 text-gray-700 dark:text-gray-300 font-medium">
               Frontend Developer – <strong>Coforge</strong> (Nov 2021 - June
               2022)
@@ -96,15 +116,16 @@ const AboutMe = () => {
             </ul>
           </div>
 
-          {/* Achievements */}
+          {/* Projects / Achievements */}
           <div>
             <h3 className="text-2xl font-bold text-gray-800 dark:text-white flex items-center gap-2">
-              <Award className="text-blue-600 dark:text-yellow-400" />{" "}
-              Achievements
+              <Award className="text-blue-600 dark:text-yellow-400" /> Projects
             </h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">
-              Secured university-level funding for an innovative final-year
-              project, demonstrating strong technical capability and vision.
+              Showcased multiple full-stack and frontend-focused projects,
+              demonstrating skills in React, Next.js, Redux Toolkit, Socket.IO,
+              and API integrations. These projects highlight my ability to
+              deliver <strong>production-ready, scalable applications</strong>.
             </p>
           </div>
 

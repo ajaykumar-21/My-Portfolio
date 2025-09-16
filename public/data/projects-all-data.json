@@ -1,5 +1,28 @@
 [
   {
+    "title": "Voice Notes Manager App | Full-Stack MERN + AI (OpenAI API)",
+    "demoLink": "https://voice-note-manager.vercel.app",
+    "description": "A full-stack voice notes app with real-time recording, transcription, and AI-powered summaries using MERN stack and OpenAI API. Features secure uploads, smart note management, and a responsive React UI with edit, delete, and generate summary functionality.",
+    "features": [
+      "Record and upload voice notes in real-time",
+      "Automatic transcription of audio using OpenAI Whisper API",
+      "AI-powered summaries and insights from notes",
+      "CRUD functionality for managing notes (create, edit, delete)",
+      "Responsive React UI with intuitive design",
+      "Secure file storage and handling"
+    ],
+    "technologies": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "OpenAI API",
+      "Tailwind CSS",
+      "Vercel",
+      "Render"
+    ]
+  },
+  {
     "title": "GradNext Cohort Automation & Landing Page",
     "demoLink": "https://gradnext-landing-page.vercel.app",
     "description": "Built a full-stack application to automate cohort enrollment for GradNext. Includes a responsive landing page, email automation using SendGrid, webhook tracking, follow-up scheduling, and a real-time admin dashboard.",

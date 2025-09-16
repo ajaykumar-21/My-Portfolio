@@ -24,10 +24,12 @@ const contactDetails = [
 const Contact = () => {
   return (
     <section
-      className="py-20 bg-gradient-to-t from-white to-gray-100 dark:from-gray-800 dark:to-gray-900"
+      className="w-full py-20 bg-gradient-to-t from-white to-gray-100 dark:from-gray-800 dark:to-gray-900"
       id="contact"
     >
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="w-full text-center px-6">
+        {" "}
+        {/* Use full width */}
         <motion.h2
           className="text-4xl font-bold mb-4 text-gray-900 dark:text-white"
           initial={{ opacity: 0, y: -30 }}
@@ -36,7 +38,6 @@ const Contact = () => {
         >
           📬 Contact Me
         </motion.h2>
-
         <motion.p
           className="text-gray-600 dark:text-gray-300 mb-12 text-lg"
           initial={{ opacity: 0 }}
@@ -45,12 +46,11 @@ const Contact = () => {
         >
           Feel free to reach out via any of the channels below!
         </motion.p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 w-full px-6">
           {contactDetails.map((item, i) => (
             <motion.div
               key={i}
-              className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 flex flex-col items-center gap-4 transition-transform transform hover:scale-105 hover:shadow-2xl"
+              className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 flex flex-col items-center gap-4 transition-transform transform hover:scale-105 hover:shadow-2xl w-full"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: i * 0.2 }}

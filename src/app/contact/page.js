@@ -52,7 +52,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-br from-gray-100 to-white dark:from-gray-950 dark:to-gray-900">
+    <section className="py-24 min-h-screen bg-gradient-to-br from-gray-100 to-white dark:from-gray-950 dark:to-gray-900">
       <Toaster position="top-right" reverseOrder={false} />
       <div className="max-w-5xl mx-auto px-6">
         <motion.h2

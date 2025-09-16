@@ -11,7 +11,7 @@ import { Autoplay } from "swiper/modules";
 const Hero = () => {
   return (
     <section
-      className="flex flex-col justify-center items-center text-center bg-gradient-to-br from-blue-50 to-blue-20 dark:from-gray-900 dark:to-gray-800 px-4 sm:px-6 py-16"
+      className="min-h-screen w-full overflow-x-hidden flex flex-col justify-center items-center text-center bg-gradient-to-br from-blue-50 to-blue-20 dark:from-gray-900 dark:to-gray-800 px-4 sm:px-6 py-16"
       id="home"
     >
       <motion.h1

@@ -39,20 +39,23 @@ const About = () => {
             <span className="font-semibold text-blue-600 dark:text-yellow-400">
               Frontend Developer
             </span>{" "}
-            specializing in building modern, fast-loading websites using{" "}
-            <span className="font-semibold">React</span>,{" "}
-            <span className="font-semibold">Next.js</span>, and{" "}
-            <span className="font-semibold">Tailwind CSS</span>.
+            with 2 years of experience building scalable, production-ready web
+            applications with{" "}
+            <span className="font-semibold">React.js</span>,{" "}
+            <span className="font-semibold">Next.js</span>,{" "}
+            <span className="font-semibold">JavaScript</span>, and{" "}
+            <span className="font-semibold">TypeScript</span>.
           </p>
           <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            I help coaches, creators, small businesses, and startups bring their
-            ideas online with clean code, responsive UI, and smooth user
-            experience. Whether it’s a landing page, portfolio, or full React
-            app — I build it to perform.
+            I build reusable, accessible interfaces and integrate APIs to create
+            polished user experiences. My work includes improving Core Web
+            Vitals, technical SEO, and application performance through code
+            splitting, lazy loading, and rendering optimizations.
           </p>
           <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Let’s work together and create something amazing that reflects your
-            brand and converts visitors into clients.
+            I care about clean, maintainable code and collaborate closely with
+            design, backend, and product teams to ship reliable frontend
+            features.
           </p>
 
           {/* CTA Button */}

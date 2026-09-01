@@ -33,40 +33,35 @@ const AboutMe = () => {
           {/* Heading */}
           <div>
             <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-4">
-              🚀 Helping Brands & Founders Launch Better Websites
+              🚀 Building Fast, Scalable Web Experiences
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               I'm a{" "}
               <span className="font-semibold text-blue-600 dark:text-yellow-400">
                 Frontend Developer
               </span>{" "}
-              with around <strong>1 year</strong> of professional experience
-              building responsive, scalable, and performance-focused web
-              applications. I specialize in{" "}
-              <strong>React, JavaScript, HTML, CSS, and Tailwind CSS</strong>,
-              with a passion for crafting seamless user interfaces.
+              with <strong>2 years</strong> of experience building scalable,
+              performance-focused web applications. I specialize in{" "}
+              <strong>React.js, Next.js, JavaScript, and TypeScript</strong>,
+              with a focus on polished, accessible user interfaces.
             </p>
             <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I have hands-on expertise with{" "}
+              I have hands-on experience with{" "}
               <strong>
-                Next.js, WebSocket, Redux Toolkit, and real-world workflows
+                Redux, Tailwind CSS, Material UI, REST APIs, Firebase, and
+                Socket.IO
               </strong>
-              , applying modern development practices to deliver
-              production-ready solutions.
+              , using modern workflows to deliver production-ready solutions.
             </p>
             <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I've solved over{" "}
-              <span className="font-semibold text-blue-600 dark:text-yellow-400">
-                200+ DSA problems
-              </span>{" "}
-              across LeetCode and GeeksforGeeks, sharpening my logical and
-              problem-solving skills.
+              I optimize Core Web Vitals and technical SEO through code
+              splitting, lazy loading, structured data, semantic HTML, and
+              rendering optimizations.
             </p>
             <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I take pride in writing clean, maintainable code and love building
-              reusable components that enhance efficiency. My focus is always on
-              delivering <strong>high-impact digital experiences</strong> that
-              are fast, reliable, and user-friendly.
+              I take pride in writing clean, maintainable code and building
+              reusable components that help teams ship fast, reliable, and
+              user-friendly digital experiences.
             </p>
           </div>
 
@@ -77,41 +72,63 @@ const AboutMe = () => {
               Experience
             </h3>
             <p className="mt-4 text-gray-700 dark:text-gray-300 font-medium">
-              Freelance & Personal Projects – (Feb 2023 - Present)
+              Frontend Developer – <strong>ApyHub</strong> (Sept 2025 - Aug 2026)
             </p>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2 space-y-1">
               <li>
-                Developed an <strong>E-commerce Cart Application</strong> with
-                add-to-cart, discounts, and reusable components.
+                Improved Largest Contentful Paint from approximately 5 seconds
+                to under 2.5 seconds in production.
               </li>
               <li>
-                Built a <strong>Hackathon Management App</strong> with search,
-                filtering, sorting, and countdown timers.
+                Improved Core Web Vitals with code splitting, lazy loading,
+                asset optimization, and fewer unnecessary React re-renders.
               </li>
               <li>
-                Created a <strong>Real-Time Collaboration Tool</strong> using
-                Next.js and Socket.IO for shared whiteboard interactions.
+                Improved technical SEO with Schema.org structured data, semantic
+                HTML, and indexing fixes across key landing pages.
+              </li>
+              <li>
+                Built reusable React and Next.js components and collaborated
+                across design, backend, and product teams.
               </li>
             </ul>
-            <p className="mt-2 text-gray-700 dark:text-gray-300 font-medium">
+            <p className="mt-4 text-gray-700 dark:text-gray-300 font-medium">
+              Frontend Developer (Freelance) (Feb 2023 - July 2025)
+            </p>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2 space-y-1">
+              <li>
+                Developed responsive web applications with React.js, Next.js,
+                Tailwind CSS, and Material UI.
+              </li>
+              <li>
+                Built real-time applications using REST APIs, Firebase, and
+                Socket.IO.
+              </li>
+              <li>
+                Delivered scalable solutions using reusable components,
+                Git-based workflows, and deployments on Vercel and Render.
+              </li>
+            </ul>
+            <p className="mt-4 text-gray-700 dark:text-gray-300 font-medium">
               Frontend Developer – <strong>Coforge</strong> (Nov 2021 - June
               2022)
             </p>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2 space-y-1">
               <li>
-                Collaborated with developers and stakeholders to ship 16+
-                features.
+                Developed responsive React-based user interfaces for enterprise
+                applications.
               </li>
               <li>
-                Reviewed over 50 code submissions, improving quality and
-                consistency.
+                Integrated REST APIs with backend services to deliver seamless
+                user experiences.
               </li>
               <li>
-                Built reusable UI components to reduce development time by 30%.
+                Built reusable UI components to improve consistency and reduce
+                duplication across modules.
               </li>
               <li>
-                Optimized applications leading to a 20% improvement in load
-                time.
+                Participated in code reviews and worked with cross-functional
+                teams to improve application quality.
               </li>
             </ul>
           </div>
